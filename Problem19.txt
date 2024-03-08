@@ -1,0 +1,35 @@
+Write a program to - (Use appropriate String methods)
+
+Correct the spelling mistake from “Davi Beckham” to “David Beckham”
+Correct the number of goals scored by Lionel Messi from 400 to 579
+
+
+
+public class String_method3 {
+
+    static String name = "Davi Beckham";
+    static String goals = "400";
+
+    static void checkSpelling(){
+        if(!name.equals("David Beckham")){
+            System.out.println("The correct name is "+name.replace(name,"David Beckham"));
+        }
+        else{
+            System.out.println("Entered name is correct");
+        }
+    }
+
+    static void checkGoals(){
+        if(!goals.equals("579")){
+            System.out.println("Number of goals scored by Lionel Messi is "+goals.replace(goals,"579"));
+        }
+        else{
+            System.out.println("Entered Number of goals scored by Lionel Messi is correct");
+        }
+    }
+
+    public static void main(String[] args) {
+        String_method3.checkSpelling();
+        String_method3.checkGoals();
+    }
+}

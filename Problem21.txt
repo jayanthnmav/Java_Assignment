@@ -1,0 +1,23 @@
+Write a program to replace the - (Use appropriate String methods)
+
+Original name from “Liverpool” to “Liverpool Football Club”
+Original name from “City” to “Manchester City”
+
+
+
+public class String_method1 {
+    static String club1 = "Liverpool";
+    static String club2 = "City";
+
+    static void stringReplace(){
+        String club1Rep = club1.replace("Liverpool","Liverpool Football Club");
+        String club2Rep = club2.replace("City","Manchester City");
+        System.out.println("String "+club1+" replaced to "+club1Rep);
+        System.out.println("String "+club2+" replaced to "+club2Rep);
+    }
+
+    public static void main(String[] args) {
+        String_method1.stringReplace();
+
+    }
+}

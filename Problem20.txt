@@ -1,0 +1,23 @@
+Write a program to verify if the name of Cristiano Ronaldo is equal to Ronaldo Nazario (Use appropriate String methods)
+
+
+
+
+public class String_method2 {
+    String name1 = "Cristiano Ronaldo";
+    String name2 = "Ronaldo Nazario";
+
+    void checkName(){
+        if(name1.equals(name2)){
+            System.out.println(name1+ " equals "+name2);
+        }
+        else{
+            System.out.println(name1+ " not equal to "+name2);
+        }
+    }
+
+    public static void main(String[] args) {
+        String_method2 sm = new String_method2();
+        sm.checkName();
+    }
+}

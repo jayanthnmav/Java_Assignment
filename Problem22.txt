@@ -1,0 +1,25 @@
+Write a program to print “Narendra Modi” to - (Use appropriate String methods)
+
+UpperCase & the LowerCase
+
+
+public class Upper_Lower {
+    String pm = "Narendra Modi";
+
+    void getNameUP(){
+        String upper = pm.toUpperCase();
+        System.out.println(upper);
+    }
+
+    void getNameLW(){
+        String lower = pm.toLowerCase();
+        System.out.println(lower);
+    }
+
+
+    public static void main(String[] args) {
+        Upper_Lower ul = new Upper_Lower();
+        ul.getNameUP();
+        ul.getNameLW();
+    }
+}

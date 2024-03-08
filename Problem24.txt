@@ -1,0 +1,43 @@
+Write a program to create 3 overloaded constructors and print all the 3 overloaded constructors.
+
+
+
+package assignment;
+
+public class Education {
+    long college_contact;
+    String collegeName,collegeLocation,college_id;
+
+
+    public Education(String collegeName, String collegeLocation) {
+        this.collegeName = collegeName;
+        this.collegeLocation = collegeLocation;
+    }
+
+    public Education(long college_contact) {
+        this("Bangalore Institute of Technology","Bengaluru");
+        this.college_contact = college_contact;
+    }
+
+    public Education(String collegeName, String collegeLocation,String college_id) {
+        this(454511);
+        this.collegeName = collegeName;
+        this.collegeLocation = collegeLocation;
+        this.college_id = college_id;
+    }
+
+    public static void main(String[] args) {
+
+        Education ed = new Education("Christ College","Bengaluru");
+        System.out.println(ed.collegeName + ", "+ ed.collegeLocation);
+
+        Education ed0 = new Education(60796007);
+        System.out.println(ed0.collegeName + ", "+ed0.collegeLocation + ", "+ed0.college_contact);
+
+
+        Education ed2 = new Education("Maharaja college","Mysore","MY_608");
+        System.out.println(ed2.collegeName + ", "+ed2.collegeLocation + ", "+ed2.college_contact + ", "+ed2.college_id);
+
+
+    }
+}
