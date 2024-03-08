@@ -1,0 +1,18 @@
+Run a for loop from 500 to 1000 where if loop finds number 808 then it will print the number found as 808
+
+public class Loop {
+
+    public void find(){
+        for(int a=500;a<=1000;a++){
+            if(a==808){
+                System.out.println("Number found is "+a);
+            }
+        }
+    }
+
+
+    public static void main(String[] args) {
+        Loop l = new Loop();
+        l.find();
+    }
+}

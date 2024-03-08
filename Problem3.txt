@@ -1,0 +1,26 @@
+Write a java program which will throw an exceptopn error for an AGE field if we pass age below 25 and above 55.
+
+
+import java.util.Scanner;
+
+public class Age_Exception {
+
+    public void nominee_details(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your Name");
+        String name = sc.nextLine();
+        System.out.println("Enter your age");
+        int age = sc.nextInt();
+        System.out.println("Candidate name is: "+name+" and age is: "+age);
+        if(age<25 || age>55){
+            throw new RuntimeException("Enter age between 25 to 55");
+        }
+
+    }
+
+
+    public static void main(String[] args) {
+        Age_Exception ae = new Age_Exception();
+        ae.nominee_details();
+    }
+}

@@ -1,0 +1,40 @@
+Write a program where create an int type arraylist object. Then add 200 to 500 numbers into the ArrayList then Print the ArrayList.
+
+1. Perform the same for HashSet and print
+2. Perform the same for TreeSet and print
+
+
+import java.util.*;
+
+public class Listing {
+
+    public static void listArray(){
+        List<Integer> ar = new ArrayList<Integer>();
+        for(int i =200;i<=500;i++){
+            ar.add(i);
+        }
+        System.out.println(ar);
+    }
+
+    public static void setHash(){
+        Set<Integer> hs = new HashSet<>();
+        for(int i =200;i<=500;i++){
+            hs.add(i);
+        }
+        System.out.println(hs);
+    }
+
+    public static void setTree(){
+        Set<Integer> ts = new TreeSet<>();
+        for(int i =200;i<=500;i++){
+            ts.add(i);
+        }
+        System.out.println(ts);
+    }
+
+    public static void main(String[] args) {
+        listArray();
+        setHash();
+        setTree();
+    }
+}

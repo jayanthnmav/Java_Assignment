@@ -1,0 +1,33 @@
+Write a function which accepts 3 parameters. 2 integers and 1 String. If String parameter is 'add' then it would add two integers. Similarly 'subs'/'multiplication'/'division'.
+
+
+public class Math_Operation {
+
+    public static int math(int a, int b, String operation){
+
+        if(a>b && a!=0) {
+            if (operation == "add") {
+                return a + b;
+            } else if (operation == "sub") {
+                return a - b;
+            } else if (operation == "mul") {
+                return a * b;
+            } else if (operation == "div") {
+                return a / b;
+            } else {
+                return 0;
+            }
+        }
+        else{
+            return 0;
+        }
+    }
+
+
+    public static void main(String[] args) {
+        System.out.println(math(6,3,"add"));
+        System.out.println(math(6,3,"sub"));
+        System.out.println(math(6,3,"mul"));
+        System.out.println(math(6,3,"div"));
+    }
+}

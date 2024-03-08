@@ -1,0 +1,21 @@
+How can we access private data from one class to other class? Explain and write down the code for it?
+
+
+
+public class Class_Private {
+
+    private static int as = 67;
+
+    public static int getAs() {
+        return as;
+    }
+
+    public static int setAs(int as) {
+        Class_Private.as = as;
+        return as;
+    }
+
+    public static void main(String[] args) {
+
+    }
+}

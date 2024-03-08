@@ -1,0 +1,7 @@
+public class Class_GetPrivate extends Class_Private{
+
+    public static void main(String[] args) {
+        System.out.println("private date is Class_Private is "+getAs());
+
+    }
+}

@@ -1,0 +1,18 @@
+Print only 12345 from below string
+
+"ABCDE12345"
+
+
+
+
+public class Regex_12345 {
+    String a = "ABCDE12345";
+    void reg_num(){
+        System.out.println(a.replaceAll("[A-Z]",""));
+    }
+
+    public static void main(String[] args) {
+        Regex_12345 r1 = new Regex_12345();
+        r1.reg_num();
+    }
+}

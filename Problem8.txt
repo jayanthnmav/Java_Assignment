@@ -1,0 +1,31 @@
+String a = "Welcome To Java" , count the number of space present in the sentense and print only "Welcome" using array.
+
+
+
+public class Space {
+    String a = "Welcome To Java";
+    int spaceCount = 0;
+    int stringLen = a.length()-1;
+    void countSpace(){
+        for(int i=0;i<=stringLen;i++){
+            char x = a.charAt(i);
+            if(x==' '){
+                spaceCount++;
+            }
+        }
+        System.out.println("Total spaces in a string is: "+spaceCount);
+    }
+
+    void getFirst(){
+        String[] ar = a.split(" ");
+        System.out.println(ar[0]);
+    }
+
+
+    public static void main(String[] args) {
+        Space s = new Space();
+        s.countSpace();
+        s.getFirst();
+
+    }
+}
