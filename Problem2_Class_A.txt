@@ -1,0 +1,16 @@
+From Class_A, call/print an integer variable which is present is Class B. Where use constructor to reset the value of the variable from Class_A to Class B.
+
+public class Class_A extends Class_B {
+    static String pass = "Class_A_File";
+
+    public  Class_A(int oneTime, String pass) {
+        super(oneTime);
+        this.pass = pass;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(Class_B.oneTime);
+
+
+    }
+}

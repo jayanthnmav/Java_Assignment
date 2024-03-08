@@ -1,0 +1,13 @@
+public class Class_B {
+    static int oneTime = 456;
+
+    public Class_B(int oneTime) {
+
+        this.oneTime = oneTime;
+    }
+
+    public static void main(String[] args) {
+        Class_A a = new Class_A(oneTime,"Welcome");
+        System.out.println(a.pass);
+    }
+}

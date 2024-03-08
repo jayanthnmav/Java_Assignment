@@ -1,0 +1,22 @@
+Write a java program to add two float numbers like 8.6 and 9.7
+
+
+import java.util.Scanner;
+
+public class Adding_Float {
+
+    public static void add(){
+        System.out.println("Enter Two Float Numbers");
+        Scanner sc = new Scanner(System.in);
+        float a = sc.nextFloat();
+        float b = sc.nextFloat();
+
+        System.out.println(a+b);
+    }
+
+
+    public static void main(String[] args) {
+        Adding_Float.add();
+
+    }
+}
