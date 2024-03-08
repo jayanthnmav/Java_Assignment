@@ -1,0 +1,23 @@
+Write a program to Catch any exception in java. Use try catch and finally statements
+
+
+public class Check_Exception {
+
+    static void exec(){
+        try{
+            int num[] ={10,20,30,40,50,60};
+            System.out.println(num[7]);
+        }
+        catch(Exception e){
+            System.out.println("Global Exception");
+        }
+        finally{
+            System.out.println("ended...");
+        }
+    }
+
+    public static void main(String[] args) {
+        Check_Exception.exec();
+
+    }
+}
