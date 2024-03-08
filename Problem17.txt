@@ -1,0 +1,29 @@
+Write a program to print even or odd number using if condition
+
+
+import java.util.Scanner;
+
+public class Odd_Even {
+
+    static void getoddEven(){
+        System.out.println("Enter a number");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        if(a<=0){
+            System.out.println("Enter positive number");
+        }
+        else {
+            if(a%2==0){
+                System.out.println("The number entered "+a+" is even");
+            }
+            else {
+                System.out.println("The number entered "+a+" is odd");
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Odd_Even.getoddEven();
+    }
+
+}

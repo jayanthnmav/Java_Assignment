@@ -1,0 +1,29 @@
+Write a program to print – (Use appropriate String methods)
+
+Only First name from “Sachin Tendulkar”
+Only Second name from “Rahul Dravid”
+
+
+
+public class String_method4 {
+    String name1 = "Sachin Tendulkar";
+    String name2 = "Rahul Dravid";
+
+    void firstName(){
+        String[] fn = name1.split(" ");
+        System.out.println("Entered first name is "+fn[0]);
+    }
+
+    void secondName(){
+        String[] ln = name2.split(" ");
+        int i = ln.length - 1 ;
+        System.out.println("Entered second name is "+ln[i]);
+    }
+
+
+    public static void main(String[] args) {
+        String_method4 sm4 = new String_method4();
+        sm4.firstName();
+        sm4.secondName();
+    }
+}

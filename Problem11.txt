@@ -1,0 +1,42 @@
+If EmpNo=123 then EmpName=Jadeja. Like this how can we keep 100 EmpName with its EmpId? 
+
+
+Here we can consider EmpNo as key and EmpName as value. To store 100 key value pair we can use Java HashMap from Java Collection
+
+to add an element ----> put(Object key, Object value)	
+to remove an element  ----> remove(Object key) 
+to get value   ----->  get(Object key)
+to replace ------>  replace(K key, V oldValue, V newValue)
+
+
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class KeyValue {
+
+    static void addMap(){
+        Map<String,String> bodyMap = new HashMap<String,String>();
+        bodyMap.put("88","Jadeja");
+        bodyMap.put("07","Dhoni");
+        bodyMap.put("18","Kohli");
+        bodyMap.put("45","Rohit");
+
+
+        Set<String> keySet = bodyMap.keySet();
+
+        for(String key: keySet) {
+            System.out.println("empId: "+key+ ", empName: " +bodyMap.get(key));
+        }
+
+        System.out.println(bodyMap);
+    }
+
+
+    public static void main(String[] args) {
+        KeyValue.addMap();
+    }
+
+
+}

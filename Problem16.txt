@@ -1,0 +1,63 @@
+Write a program to select the current month out of 12 month in the year 2024 using switch statements
+
+
+
+import java.time.LocalDate;
+import java.util.Date;
+
+public class Current_Month {
+    Date d=new Date();
+    LocalDate localDate = LocalDate.now();
+
+    int month = localDate.getMonthValue();
+
+    void getMonth(){
+
+        switch(month){
+
+            case 1:
+                System.out.println("We are in the month of January");
+                break;
+            case 2:
+                System.out.println("We are in the month of February");
+                break;
+            case 3:
+                System.out.println("We are in the month of March");
+                break;
+            case 4:
+                System.out.println("We are in the month of April");
+                break;
+            case 5:
+                System.out.println("We are in the month of May");
+                break;
+            case 6:
+                System.out.println("We are in the month of June");
+                break;
+            case 7:
+                System.out.println("We are in the month of July");
+                break;
+            case 8:
+                System.out.println("We are in the month of August");
+                break;
+            case 9:
+                System.out.println("We are in the month of September");
+                break;
+            case 10:
+                System.out.println("We are in the month of October");
+                break;
+            case 11:
+                System.out.println("We are in the month of November");
+                break;
+            case 12:
+                System.out.println("We are in the month of December");
+                break;
+        }
+
+    }
+
+    public static void main(String[] args) {
+        Current_Month cm = new Current_Month();
+        cm.getMonth();
+
+    }
+}

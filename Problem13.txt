@@ -1,0 +1,17 @@
+Write a Program to Reverse The String "Welcome To Java"?
+
+
+public class Reverse_String {
+
+    void rev(){
+        String a = "Welcome To Java";
+        StringBuffer sb = new StringBuffer(a);
+        System.out.println(sb.reverse());
+
+    }
+
+    public static void main(String[] args) {
+        Reverse_String rs = new Reverse_String();
+        rs.rev();
+    }
+}

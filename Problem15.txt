@@ -1,0 +1,18 @@
+Write a java program to create a random AlphaNumeric number and Retun it as a String
+
+
+
+
+import static java.util.UUID.randomUUID;
+
+public class RandomAlphaNum {
+
+    static void getalphaNum(){
+        String a = randomUUID().toString().replace("-","");
+        System.out.println(a);
+    }
+
+    public static void main(String[] args) {
+        RandomAlphaNum.getalphaNum();
+    }
+}

@@ -1,0 +1,22 @@
+Write a Java Program to Print Current Date and return it as a String.
+
+
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Current_Date {
+
+    static void curDate(){
+        Date date = new Date();
+        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+
+        System.out.println(formatter.format(date));
+    }
+
+
+    public static void main(String[] args) {
+
+        Current_Date.curDate();
+    }
+}

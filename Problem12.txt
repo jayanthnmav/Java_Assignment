@@ -1,0 +1,28 @@
+Write a program to print 100 numbers using,
+While loop and
+For loop
+
+
+public class Java_Loop {
+
+    static void WhileLoop(){
+        int i = 1;
+        while (i<=100){
+            System.out.println(i);
+            i++;
+        }
+    }
+
+    static void ForLoop(){
+        for(int j=1;j<=100;j++){
+            System.out.println(j);
+        }
+    }
+
+    public static void main(String[] args) {
+        Java_Loop.WhileLoop();
+        System.out.println("<=============================>");
+        Java_Loop.ForLoop();
+
+    }
+}
