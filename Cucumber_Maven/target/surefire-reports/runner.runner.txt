@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: runner.runner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 8.469 s <<< FAILURE! - in runner.runner
+Validate UserPage Scenarios #1.Do User Page GET REST Request validation  Time elapsed: 3.257 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+
+Validate UserPage Scenarios #3.Do Mobile Page GET REST Request validation  Time elapsed: 0.907 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+
