@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GetCall_Assignment1,PostCall_assignment2"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.740">
+    <properties></properties>
+
+
+
+            <testcase
+                name="getCall"
+                time="4.740"
+                classname="assignment.Assignment01">
+            </testcase>
+</testsuite>
