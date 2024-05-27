@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create User Details"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.511">
+    <properties></properties>
+
+
+
+            <testcase
+                name="Create_A_New_User"
+                time="5.511"
+                classname="trainingRA.CreateNewUser">
+            </testcase>
+            <testcase
+                name="Test_Another_One"
+                time="0.000"
+                classname="trainingRA.CreateNewUser">
+            </testcase>
+</testsuite>
