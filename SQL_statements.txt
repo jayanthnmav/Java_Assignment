@@ -1,0 +1,47 @@
+create database capstonedb;
+create database creditdb;
+create database aadhardb;
+
+use capstonedb;
+use creditdb;
+use aadhardb;
+
+create table cctable
+(
+customer_name varchar(30) not null,
+card_year int,
+card_number long not null,
+card_limit long,
+card_expiry varchar(10),
+card_type varchar(10)
+
+);
+
+create table maptable
+(
+card_number long not null,
+PAN_number varchar(10)
+);
+
+create table pooftable
+(
+first_name varchar(10),
+last_name varchar(10),
+aadhar_no varchar(15),
+address varchar(50),
+phone varchar(10)
+);
+
+insert into cctable
+values ('jayanth',2024,'1234567242','100000','22-11-2028','VISA'),
+('numan',2023,'2374623876','200000','18-05-2026','MASTER');
+
+insert into maptable
+values ('1234567242','BSPPJ5879N'),
+('2374623876','HASSN9856S');
+
+insert into pooftable
+values ('jayanth','narayan','20129408896','#328,6th cross,MKS layout,Bengaluru-560062','9740960739'),
+('numan','shaikh','09408964563','34/B,3rd cross,Bapujinagar,Dharwad','7856238945');
+
+select * from cctable where card_number = '1234567242';
