@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="List_User"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.092">
+    <properties></properties>
+
+
+
+            <testcase
+                name="postData"
+                time="1.703"
+                classname="capstone.ReadExcel">
+            </testcase>
+            <testcase
+                name="compareData"
+                time="0.389"
+                classname="capstone.ReadExcel">
+            </testcase>
+</testsuite>

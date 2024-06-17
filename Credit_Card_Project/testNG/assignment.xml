@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Capstone" verbose="1" >
+    <test name="List_User" >
+        <parameter name="posturl" value="https://api.restful-api.dev/objects"></parameter>
+        <classes>
+            <class name="capstone.CreditCard" ></class>
+            <class name="capstone.aadharCard" ></class>
+        </classes>
+    </test>
+
+</suite>

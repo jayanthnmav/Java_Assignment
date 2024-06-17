@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="List_User"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.846">
+    <properties></properties>
+
+
+
+            <testcase
+                name="compareData"
+                time="0.464"
+                classname="capstone.CreditCard">
+            </testcase>
+            <testcase
+                name="postData"
+                time="4.382"
+                classname="capstone.CreditCard">
+            </testcase>
+</testsuite>

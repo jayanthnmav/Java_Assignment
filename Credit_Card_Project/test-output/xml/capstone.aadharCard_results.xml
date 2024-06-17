@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="List_User"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.094">
+    <properties></properties>
+
+
+
+            <testcase
+                name="readadharfrompropertiesfile"
+                time="0.005"
+                classname="capstone.aadharCard">
+            </testcase>
+            <testcase
+                name="select_datafromtable"
+                time="0.039"
+                classname="capstone.aadharCard">
+            </testcase>
+            <testcase
+                name="createUserinAPIusingproperiesfile"
+                time="1.050"
+                classname="capstone.aadharCard">
+            </testcase>
+</testsuite>
